@@ -1,6 +1,6 @@
 # Survey API
 
-A C# ASP.NET Core Web API that allows creation and magement of surveys with questions and responses.
+A C# ASP.NET Core Web API that allows creation and management of surveys with questions and responses.
 
 ---
 
