@@ -1,4 +1,4 @@
-﻿# Survey API
+# Survey API
 
 A C# ASP.NET Core Web API that allows creation and magement of surveys with questions and responses.
 
@@ -12,7 +12,7 @@ A C# ASP.NET Core Web API that allows creation and magement of surveys with ques
 
 ---
 
-## 🏗️ How to Build and Run
+## 🏗 How to Build and Run
 
 1. **Open the solution**
    - Double-click the `.sln` file (e.g., `SurveyAPI.sln`).
@@ -31,7 +31,9 @@ A C# ASP.NET Core Web API that allows creation and magement of surveys with ques
    - HTTP Endpoint: `http://localhost:5000/api/...`
    - HTTPS Endpoint: `https://localhost:5001/api/...`
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/SurveyAPI.git
-cd SurveyAPI
+### Scoring 
+Scoring is handled through the GetSurveyScore endpoint by calculating the total of all numeric responses in a survey.
+
+### Architectural Decisions
+The project structure uses controllers to handle HTTP requests and responses, models that contain the data structure and business logic
+and data that holds SurveyContext for database access. All endpoints follow RESTful principles.
